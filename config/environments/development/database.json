@@ -1,0 +1,19 @@
+{
+  "defaultConnection": "default",
+  "connections": {
+    "default": {
+      "connector": "strapi-hook-bookshelf",
+      "settings": {
+        "client": "mysql",
+        "host": "gek-db-cluster-uat.cluster-ctt3vscu81am.eu-west-1.rds.amazonaws.com",
+        "srv": false,
+        "port": 3306,
+        "database": "strapi21",
+        "username": "gek",
+        "password": "MQr0PwBIHGyMLK5U",
+        "ssl": false
+      },
+      "options": {}
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "connection": "default",
+  "collectionName": "modules",
+  "info": {
+    "name": "module",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "title": {
+      "default": "",
+      "type": "string"
+    },
+    "summary": {
+      "default": "",
+      "type": "text"
+    },
+    "courses": {
+      "collection": "course",
+      "via": "modules"
+    },
+    "language": {
+      "model": "language",
+      "via": "modules"
+    }
+  }
+}

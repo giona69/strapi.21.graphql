@@ -1,0 +1,23 @@
+{
+  "connection": "default",
+  "collectionName": "languages",
+  "info": {
+    "name": "language",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "idLang": {
+      "default": "",
+      "type": "string"
+    },
+    "modules": {
+      "collection": "module",
+      "via": "language"
+    }
+  }
+}
